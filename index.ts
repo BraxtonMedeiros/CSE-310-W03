@@ -90,6 +90,9 @@ function resetGame(): void {
     // Clear the boxes and reset the board
     resetBoxes();
 
+    // Reset filledBoxesCount
+    filledBoxesCount = 0;
+
     // Hide the button and winner message
     button.style.visibility = "hidden";
     winMessage.textContent = "";
