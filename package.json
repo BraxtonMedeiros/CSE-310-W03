@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx parcel build src/index.html --public-url '.'"
+    "build": "npx parcel build src/index.html --public-url '.'",
+    "start": "npx parcel src/index.html"
   },
   "keywords": [],
   "author": "",

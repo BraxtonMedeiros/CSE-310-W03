@@ -135,7 +135,7 @@ function checkWinner(): boolean {
 // Function to get the content of all the boxes on the board
 function getBoxes(): Array<string> {
     const boxesContent: Array<string> = [];
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 9; i++) {
         const box = document.querySelector(`#box-${i}`) as HTMLElement;
         const boxContent: string | null = box.textContent;
         if (boxContent === null) boxesContent.push("");
